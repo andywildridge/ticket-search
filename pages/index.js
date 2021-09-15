@@ -5,17 +5,17 @@ import Card from "../components/Card";
 import Event from "../components/Event";
 import VenueInput from "../components/VenueInput";
 
-const searchUrl = `https://events-api.dice.fm/v1/events?page[number]=1&page[size]=12&sort[order]=asc&filter[venues]`;
-
 export default function Home() {
   const [venue, setVenue] = useState("");
   const [eventList, setEventList] = useState([]);
   const [showMore, setShowMore] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
+  const searchUrl = `https://events-api.dice.fm/v1/events?page[number]=1&page[size]=12&sort[order]=asc&filter[venues]`;
+
   const getEvents = async (url) => {
     setIsLoading(true);
-    setShowMore(undefined);
+    setShowMore(false);
     const res = await fetch("/api/gigs?url=" + encodeURIComponent(url));
     const resultJSON = await res.json();
     setEventList(prev => [...prev, ...resultJSON.data]);

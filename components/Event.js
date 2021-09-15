@@ -12,8 +12,6 @@ export default function Event(props) {
   const saleStartDate = new Date(event.sale_start_date);
   const preSale = saleStartDate > new Date();
 
-  console.log(event);
-
   return (
     <>
       <EventHeader

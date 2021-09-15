@@ -12,8 +12,8 @@ export default function EventDateTime(props) {
     })
     .replace(" ", "");
   return (
-    <div>
-      {weekday} {day} {month} - {time}
-    </div>
+    <>
+      {!props.shortDate && weekday} {day} {month} - {time}
+    </>
   );
 }

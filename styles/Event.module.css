@@ -51,6 +51,18 @@ h3.name {
   padding: 6px 8px 4px;
 }
 
+.preSale {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  background: #000;
+  color: white;
+  padding: 6px 8px 4px;
+}
+
 .bookNow {
   background: #3C74FF;
   border: none;
@@ -122,8 +134,12 @@ h3.name {
   margin-bottom: 1rem;
 }
 
-.label {
+.moreInfo p.label {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
   color: #3C74FF;
+  margin-bottom: 0.5rem;;
 }
 
 .eventFooter {
@@ -137,4 +153,10 @@ h3.name {
   text-align: right;
   font-size: 32px;
   line-height: 37px;
+}
+
+.fromPrice {
+  font-size: 16px;
+  line-height: 18px;
+  opacity: 0.5;
 }

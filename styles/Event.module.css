@@ -1,0 +1,140 @@
+h3.name {
+  font-size: 28px;
+  line-height: 32px;
+  margin: 0.5rem 0 1rem;
+}
+
+.venue {
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.location {
+  margin: 0.2rem 0 1rem;
+}
+
+.moreInfo {
+  position: relative;
+  background: #f2f2f2;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.moreInfo .icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  pointer-events: none;
+}
+
+.imageHolder {
+  position: relative;
+  margin-bottom: 1rem;
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: 0;
+}
+
+.imageHolder > div {
+  letter-spacing: initial;
+  word-spacing: initial;
+  font-size: initial; 
+}
+
+.featured {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: #3C74FF;
+  color: white;
+  padding: 6px 8px 4px;
+}
+
+.bookNow {
+  background: #3C74FF;
+  border: none;
+  color: white;
+  padding: 0.7rem 1rem;
+  min-width: 160px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.soldOut {
+  background: #E5E5E5;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  color: #000;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+  min-width: 45%;
+  cursor: pointer;
+}
+
+.soldOutTicket {
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+
+.audio {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+  background: rgb(0 0 0 / 50%);
+  color: white;
+  padding: 0.3rem 0.4rem;
+  cursor: pointer;
+}
+
+.description {
+  margin: 1rem 0;
+}
+
+.moreInfo p {
+  margin: 0.5rem 0;
+  font-size: 16px;
+  line-height: 18px;
+}
+.moreInfo p.moreInfoLabel {
+  cursor: pointer;
+  margin: 0;
+}
+
+.moreInfoSection {
+  margin-bottom: 1rem;
+}
+
+.label {
+  color: #3C74FF;
+}
+
+.eventFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price {
+  width: 100%;
+  text-align: right;
+  font-size: 32px;
+  line-height: 37px;
+}

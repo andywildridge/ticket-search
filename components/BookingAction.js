@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Event.module.css";
+import styles from "../styles/BookingAction.module.css";
 
 export default function BookingAction(props) {
   const { event, preSale } = props;

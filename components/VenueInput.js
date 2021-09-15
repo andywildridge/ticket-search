@@ -1,4 +1,5 @@
-import { React, useState } from 'react'
+import { React, useState } from 'react';
+import styles from "../styles/VenueInput.module.css";
 
 export default function VenueInput(props) {
   const [searchValue, setSearchValue] = useState('');
@@ -11,7 +12,12 @@ export default function VenueInput(props) {
   }
   return (
     <form onSubmit={venueSearch}>
-      <input type="search" onChange={handleSearchterm} /><button>Search</button>
+      <input
+        type="search"
+        onChange={handleSearchterm}
+        className={styles.search}
+      />
+      <button>Search</button>
     </form>
-  )
+  );
 }

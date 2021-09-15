@@ -1,6 +1,6 @@
 import React from 'react';
 import priceFormat from "../utils/priceFormat";
-import styles from "../styles/Event.module.css";
+import styles from "../styles/Price.module.css";
 
 export default function Price(props) {
   const { ticketTypes } = props;

@@ -15,16 +15,6 @@ a {
   text-decoration: none;
 }
 
-.card__image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-input[type="search"] {
-  margin-right: 0.5rem;
-}
-
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,50 @@
+.imageHolder {
+  position: relative;
+  margin-bottom: 1rem;
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: 0;
+  background: #e5e5e5;
+}
+
+.imageHolder > div {
+  letter-spacing: initial;
+  word-spacing: initial;
+  font-size: initial; 
+}
+
+.featured {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: #3C74FF;
+  color: white;
+  padding: 6px 8px 4px;
+}
+
+.audio {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+  background: rgb(0 0 0 / 50%);
+  color: white;
+  padding: 0.3rem 0.4rem;
+  cursor: pointer;
+}
+
+.preSale {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  background: #000;
+  color: white;
+  padding: 6px 8px 4px;
+}

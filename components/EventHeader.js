@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import EventDateTime from "./EventDateTime";
-import styles from "../styles/Event.module.css";
+import styles from "../styles/EventHeader.module.css";
 
 export default function EventHeader(props) {
   const { event, preSale, saleStartDate, featured } = props;

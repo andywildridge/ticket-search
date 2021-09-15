@@ -1,0 +1,47 @@
+.moreInfo {
+  position: relative;
+  background: #f2f2f2;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.moreInfo .icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  pointer-events: none;
+}
+
+.description {
+  margin: 1rem 0;
+}
+
+.moreInfo p {
+  margin: 0.5rem 0;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.moreInfo p.moreInfoLabel {
+  cursor: pointer;
+  margin: 0;
+}
+
+.moreInfoSection {
+  margin-bottom: 1rem;
+}
+
+.moreInfo p.label {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #3C74FF;
+  margin-bottom: 0.5rem;;
+}
+
+.soldOutTicket {
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}

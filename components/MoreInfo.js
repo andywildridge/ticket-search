@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import priceFormat from "../utils/priceFormat";
-import styles from "../styles/Event.module.css";
+import styles from "../styles/MoreInfo.module.css";
 
 export default function MoreInfo(props) {
   const [showMoreInfo, toggleShowMoreInfo] = useState(props.featured);

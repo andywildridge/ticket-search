@@ -1,0 +1,42 @@
+.preSale {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  background: #000;
+  color: white;
+  padding: 6px 8px 4px;
+}
+
+.bookNow {
+  background: #3C74FF;
+  border: none;
+  color: white;
+  padding: 0.7rem 1rem;
+  min-width: 160px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.soldOut {
+  background: #E5E5E5;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  color: #000;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+  min-width: 45%;
+  cursor: pointer;
+}

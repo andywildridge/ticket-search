@@ -26,8 +26,8 @@ export default function Home() {
   };
 
   const loadMoreEvents = () => {
-    getEvents(showMore);
     setShowMore(false);
+    getEvents(showMore);
   };
 
   const handleVenueSearch = (venue) => {
@@ -44,7 +44,6 @@ export default function Home() {
         <link rel="icon" href="https://dice.fm/favicon.ico" />
       </Head>
 
-      <h3>Search for venue</h3>
       <VenueInput venueSearch={handleVenueSearch} />
       {venue.length > 0 && (
         <p>
@@ -58,6 +57,10 @@ export default function Home() {
           <div className={styles.grid}>
             {eventList.map((event, index) => {
               return (
+                /* 
+                  Set status of first result to featured,
+                  iterate over results
+                */
                 <Card key={event.id}>
                   <Event event={event} featured={index === 0 ? true : false} />
                 </Card>

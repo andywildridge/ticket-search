@@ -10,12 +10,12 @@ h3.name {
   margin: 0;
 }
 
+.location {
+  margin: 0.2rem 0 1rem;
+}
+
 .eventFooter {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.location {
-  margin: 0.2rem 0 1rem;
 }

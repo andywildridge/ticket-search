@@ -1,6 +1,9 @@
+/*
+  Abstract search query to server api to protect api key 
+*/
+
 const gigs = async (req, res) => {
   const { url } = req.query;
-  console.log(url);
   const results = await fetch(url, {
     method: "GET",
     headers: {

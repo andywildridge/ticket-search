@@ -18,28 +18,29 @@ export default function MoreInfo(props) {
       {showMoreInfo && (
         <>
           <div className={styles.description}>{event.description}</div>
-          <div className={styles.moreInfoSection}>
-            <p className={styles.label}>LINE UP</p>
+          <p className={styles.label}>LINE UP</p>
+          <div role="list" className={styles.moreInfoSection}>
             {event.lineup.map((item) => {
               return (
-                <p key={item.details}>
+                <p role="listitem" key={item.details}>
                   {item.details}{" "}
                   {item.time.length > 0 && (
                     <>
-                      {" "}
-                      - <strong>{item.time}</strong>
+                      {" - "}
+                      <strong>{item.time}</strong>
                     </>
                   )}
                 </p>
               );
             })}
           </div>
-          <div className={styles.moreInfoSection}>
-            <p className={styles.label}>TICKETS</p>
+          <p className={styles.label}>TICKETS</p>
+          <div role="list" className={styles.moreInfoSection}>
             {event.ticket_types.map((ticket) => {
               return (
-                <p key={ticket.id}>
-                  {ticket.name}{" "}
+                <p role="listitem" key={ticket.id}>
+                  {ticket.name}
+                  {" - "}
                   <strong>{priceFormat(ticket.price.total / 100)}</strong>{" "}
                   {ticket.sold_out && (
                     <span className={styles.soldOutTicket}>SOLD OUT</span>

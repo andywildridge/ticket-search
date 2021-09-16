@@ -1,15 +1,3 @@
-.preSale {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  font-size: 14px;
-  line-height: 16px;
-  color: #FFFFFF;
-  background: #000;
-  color: white;
-  padding: 6px 8px 4px;
-}
-
 .bookNow {
   background: #3C74FF;
   border: none;
@@ -38,5 +26,4 @@
   text-transform: uppercase;
   padding: 0.7rem 1rem;
   min-width: 45%;
-  cursor: pointer;
 }

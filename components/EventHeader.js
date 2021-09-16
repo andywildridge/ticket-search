@@ -29,7 +29,6 @@ export default function EventHeader(props) {
         alt="band image"
         width={640}
         height={eventImage.height}
-        className="card__image"
       />
       {!preSale && props.featured && (
         <div className={styles.featured}>FEATURED</div>

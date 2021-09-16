@@ -12,6 +12,18 @@
   margin: 1rem 0;
 }
 
+.loadMore {
+  padding: 0.7rem 1rem;
+  min-width: 160px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 @media (max-width: 1200px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);

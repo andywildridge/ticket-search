@@ -58,8 +58,8 @@ export default function Home() {
             {eventList.map((event, index) => {
               return (
                 /* 
-                  Set status of first result to featured,
-                  iterate over results
+                  Set status of first result to 'featured',
+                  iterate and display results
                 */
                 <Card key={event.id}>
                   <Event event={event} featured={index === 0 ? true : false} />
@@ -69,7 +69,11 @@ export default function Home() {
           </div>
         )}
         {isLoading && <div className={styles.loading}>Loading...</div>}
-        {showMore && <button onClick={loadMoreEvents}>Show More</button>}
+        {showMore && (
+          <button onClick={loadMoreEvents} className={styles.loadMore}>
+            Load More
+          </button>
+        )}
       </main>
     </div>
   );

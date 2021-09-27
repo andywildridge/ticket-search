@@ -20,6 +20,7 @@ export default function VenueInput(props) {
           className={styles.search}
         />
         <button>Search</button>
+        <div>e.g. The Waiting Room, The Lexington or Cafe Oto</div>
       </form>
     </>
   );
